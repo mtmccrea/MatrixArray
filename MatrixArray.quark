@@ -1,0 +1,12 @@
+(
+          \name: "MatrixArray",
+       \summary: "A two-dimensional array structure to facilitate fast(er) matrix operations.",
+        \author: "Michael McCrea",
+     \copyright: "Michael McCrea 2019",
+       \license: "GPL",
+       \version: "0.1.0",
+        \schelp: "MatrixArray",
+           \url: "https://github.com/mtmccrea/MatrixArray.quark",
+  \dependencies: [  ],
+         \since: "2019",
+)
