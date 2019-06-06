@@ -1,18 +1,18 @@
-// MatrixArray is optimized for certain matrix operations, especially those
-// involving the matrix determinant.
-// Certain error checks are omitted, for example for operations that
-// require a square matrix, this shape is assumed.
-// Most methods will return a new Array, so if you expect to call further methods
-// on a result, you may need to "cast" it into a new MatrixArray using *with.
-//
-// This is a partial refactoring of the Matrix class from the MathLib quark
-// originally authored by sc.solar, Till Bovermann, Christofer Fraunberger, and Dan Stowell.
-// This refactoring also includes a much faster determinant caclulation based on LU Decomposition:
-// https://en.wikipedia.org/wiki/LU_decomposition
-// algorithm published here:
-// Intel Application Notes AP-931, Streaming SIMD Extensions - LU Decomposition
-// http://web.archive.org/web/20150701223512/http://download.intel.com/design/PentiumIII/sml/24504601.pdf
+/*
+	Copyright Michael McCrea, 2019
+		M McCrea	mtm5@uw.edu
+	This file is part of the MatrixArray quark for SuperCollider 3 and is free software:
+	you can redistribute it and/or modify it under the terms of the GNU General
+	Public License as published by the Free Software Foundation, either version 3
+	of the License, or (at your option) any later version.
+	This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+	without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+	See the GNU General Public License for more details.
+	<http://www.gnu.org/licenses/>.
 
+	A description of the functionality, along with attributions can be found in
+	both the README and help documentation.
+*/
 
 MatrixArray {
 
