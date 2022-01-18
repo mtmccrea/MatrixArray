@@ -1,5 +1,6 @@
 ## MatrixArray.quark : Read Me
 _A two-dimensional array structure to facilitate fast(er) matrix operations._
+***NOTE*** This quark is deprecated and development has moved to https://gitlab.com/dxarts/projects/matrixarray.quark
 
 
 ### Installing
